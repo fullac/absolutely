@@ -1,0 +1,4 @@
+# decisive mode 本地状态与日志
+.claude/decisive-mode.on
+.claude/decisive-mode.log
+__pycache__/

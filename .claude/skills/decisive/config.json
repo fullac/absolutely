@@ -1,0 +1,15 @@
+{
+  "lang": "en",
+  "checks": {
+    "deferral_ending": { "enabled": true, "tail_lines": 2 },
+    "hedge_density": { "enabled": true, "min_count": 4, "per_100_units": 2.5 },
+    "disclaimer_stack": { "enabled": true, "min_count": 2 },
+    "options_without_pick": { "enabled": true, "min_options": 2 },
+    "apology_preamble": { "enabled": true },
+    "capability_hedge": { "enabled": true },
+    "preemptive_negation": { "enabled": true, "strong_min": 1, "total_min": 2 },
+    "vague_degree": { "enabled": true, "min_count": 1 },
+    "stacked_negation": { "enabled": true }
+  },
+  "log": true
+}
